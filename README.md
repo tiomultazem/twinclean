@@ -9,7 +9,7 @@ dengan mudah. Duplikat file akan tampil berdekatan atas bawah di hasil pencarian
 
 ---
 
-## ✨ Cara Kerja Aplikasi
+## ⚙️ Cara Kerja Aplikasi
 
 Setiap file memiliki isi berupa data (byte).
 Data ini kemudian dihitung menggunakan MD5 sehingga menghasilkan kode unik (disebut hash).
