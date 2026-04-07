@@ -3,7 +3,21 @@
 
 # TwinClean
 
-**TwinClean** adalah aplikasi untuk mencari dan menghapus file duplikat di komputer Anda dengan mudah.
+**TwinClean** adalah aplikasi untuk mencari dan menghapus file duplikat di komputer Anda
+dengan mudah. Duplikat file akan tampil berdekatan atas bawah di hasil pencarian.
+
+
+---
+
+## ✨ Cara Kerja Aplikasi
+
+Setiap file memiliki isi berupa data (byte).
+Data ini kemudian dihitung menggunakan MD5 sehingga menghasilkan kode unik (disebut hash).
+
+TwinClean membandingkan hash dari setiap file:
+
+- Jika hash sama persis, maka isi file 100% identik → dianggap duplikat
+- Jika berbeda sedikit saja, hash akan ikut berubah → dianggap file berbeda
 
 ---
 
@@ -43,12 +57,6 @@ python app.py
 
 * Pastikan Anda tidak menghapus file penting
 * Disarankan tidak digunakan pada folder sistem
-
----
-
-## 📌 Catatan
-
-Aplikasi ini mendeteksi file yang benar-benar sama berdasarkan isi file, bukan hanya nama.
 
 ---
 
