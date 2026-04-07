@@ -1,4 +1,3 @@
-Berikut versi sederhana dan ramah pengguna:
 
 ---
 
