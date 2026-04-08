@@ -9,7 +9,7 @@ import subprocess
 class DuplicateFinderApp:
     def __init__(self, root):
         self.root = root
-        self.root.title("Pendeteksi File Duplikat")
+        self.root.title("TwinClean-Detektor File Duplikat")
         self.root.geometry("1200x750")
 
         self.selected_dir = tk.StringVar()
